@@ -1,0 +1,3 @@
+check process blog-daemon with pidfile /var/run/ustcblog/blog-daemon.pid
+  start program = "/etc/init.d/blog-daemon start"
+  stop program  = "/etc/init.d/blog-daemon stop"
